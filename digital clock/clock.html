@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="digital">
+        <h1>Digital Clock</h1>
+        <div id="digit-clock"></div>
+    </div>
+<!-- js for clock -->
+  
+<script>
+    const clock = document.getElementById('digit-clock');
+
+    setInterval(() =>{
+        const date = new Date();
+
+        // clock.innerHTML = date.toLocaleTimeString();
+
+        // clock.innerHTML = date.toLocaleString();
+        clock.innerHTML = date.toLocaleString(); //for both date an date time
+
+    }, 1000);
+</script>  
+
+</body>
+</html>

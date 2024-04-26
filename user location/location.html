@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user location</title>
+    <link rel="stylesheet" href="location.css">
+</head>
+<body>
+    <div class="btn">
+        <button type="submit" onclick="getlocation()" value="get location">get location</button>
+    </div>
+    
+</body>
+</html>
+<script>
+    function getlocation() {
+
+        navigator.geolocation.getCurrentPosition(
+            (data) => {
+                console.log(data.coords);
+            },(e) =>{},
+            {
+                enableHighAccuracy:true,
+                timeout:5000,
+            }
+        )
+    }
+
+</script>

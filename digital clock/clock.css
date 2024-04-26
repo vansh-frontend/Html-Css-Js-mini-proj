@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(45deg, #FF416C, #FF4B2B);
+    /* background-color:#2c2c2c; */
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digital {
+    margin-top: 50px;
+}
+
+.digital h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    animation: glow 1.5s infinite alternate;
+}
+
+#digit-clock {
+    font-size: 3em;
+    letter-spacing: 5px;
+    padding: 10px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: pulse 1s infinite alternate;
+    color:white;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff00de, 0 0 30px #ff4b2b, 0 0 40px #FF416C, 0 0 70px #ff4b2b, 0 0 80px #FF416C, 0 0 100px #FF416C, 0 0 150px #ff00de;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff00de, 0 0 40px #ff4b2b, 0 0 70px #FF416C, 0 0 80px #ff4b2b, 0 0 100px #FF416C, 0 0 150px #FF416C, 0 0 200px #ff00de;
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}

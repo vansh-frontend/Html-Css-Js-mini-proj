@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-color 2s, color 2s;
+  color: black;
+}
+
+
+button {
+  color: white;
+  background-color: steelblue;
+  border-radius: 35px;
+  width: 70px;
+  height: 35px;
+
+}
+
+
+
+button:hover {
+  animation: bubble 3s infinite ease-in-out;
+  background-color: green;
+  border-radius:35px;
+  box-shadow:0 0 30px black;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* Common styles for all screen sizes */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-color 2s, color 2s;
+  color: black;
+}
+
+}
+
+
+/* Responsive Design */
+@media only screen and (max-width: 786px) {
+  .header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .menu {
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
+  .search-container {
+      margin-left: 0;
+      margin-top: 10px; /* Adjust margin for spacing */
+  }
+
+  #search {
+      width: 100%; /* Make the search input full width */
+  }
+
+  .mode-switcher {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+  .hero{
+      display: inline;
+  }
+
+  .hero-image{
+      max-width: 100%; /* Ensure image fits within its container */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      justify-content: center;
+  }
+
+  .hero-content h1 {
+      font-size: 1.5em;
+      text-align: center;
+  }
+  .hero-content h2{
+      margin: 20px 10px;
+
+  }
+  
+
+  .hero-content p {
+      font-size: 1em;
+      text-align: center; /* Adjust font size for paragraphs */
+  }
+
+  
+
+  body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: background-color 2s, color 2s;
+      color: black;
+  }
+}
+

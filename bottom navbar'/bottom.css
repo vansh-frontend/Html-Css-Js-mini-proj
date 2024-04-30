@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #252525;
+}
+.div{
+  display: flex;
+  justify-content: center;
+  /* height: 10vh; */
+  margin: 80px;
+  align-items: center;
+  border: 1px solid #333;
+  background-color: #333;
+
+
+}
+.div strong{
+  color: #f8f8f8;
+  font-size: 34px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #5b86e5, #36d1dc);
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1); /* Adding shadow for a professional look */
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  flex: 1;
+  text-align: center;
+  padding: 15px 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: bold;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.navbar a.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 30px; /* Rounded corners for the active link */
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar a {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  strong{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  strong{
+    font-size: 24px
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar a {
+    font-size: 14px; /* Increase font size for smaller screens */
+  }
+  strong{
+    font-size: 20px;
+  }
+}

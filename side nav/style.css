@@ -1,0 +1,62 @@
+/* Styles for the side navigation bar */
+*{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+
+  }
+  
+  .sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: #555;
+  }
+  
+  /* Styles for the main content */
+  .main {
+    margin-left: 0;
+    padding: 20px;
+    margin: 80px 0;
+  }
+  
+  /* Button to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color:#333;
+    border: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    z-index: -2;
+    margin: 20px 0;
+  }
+  
+  /* Close button inside the sidebar */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }

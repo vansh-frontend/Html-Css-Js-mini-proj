@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Notification Button</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="btn"><button id="Notification">Notify me</button></div>
+
+    <script>
+      function showNotification() {
+        Notification.requestPermission().then((permission) => {
+          if (permission === "granted") {
+            new Notification("You have 1+ notification");
+          }
+        });
+      }
+
+      document
+        .getElementById("Notification")
+        .addEventListener("click", showNotification);
+    </script>
+  </body>
+</html>

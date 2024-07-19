@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(to right,steelblue,grey);
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    background-color:rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    color: aliceblue;
+    height: 80px;
+    width: 300px;
+    justify-content: center;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+button:active{
+
+    border: none;
+    border-radius: 15px;
+    background-color:rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    color: aliceblue;
+    height: 80px;
+    width: 300px;
+    justify-content: center;
+    font-size: 1.9rem;
+    cursor: pointer;
+    transform: scale(0.89);
+    outline: 1px solid black;
+    outline-offset: 2px;
+
+}
+button:hover{
+    background-color: #333;
+}

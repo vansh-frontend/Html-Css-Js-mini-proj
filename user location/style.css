@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to right,purple,#fff);
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    margin: 80px 0  ;
+}
+.btn button{
+    width:300px;
+    height: 60px;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right, steelblue, #fff);
+}
+.btn button:active{
+    transform: scale(0.98);
+}

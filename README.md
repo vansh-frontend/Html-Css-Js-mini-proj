@@ -7,7 +7,7 @@
   <br />
   <a href="https://stocknest.netlify.app/"><strong>➥ Live Demo</strong></a>
 
-</div>
+
 
 ## Projects
 
@@ -15,25 +15,50 @@
 ![Age Calculator](https://github.com/user-attachments/assets/d80b806d-40af-4368-8c32-73ec2dab81fe)
 
 ### Alert Boxes
-![Alert Boxes](https://github.com/user-attachments/assets/9fa50c8d-4619-424a-9a86-31399eaa0cfc)
+https://github.com/user-attachments/assets/332dad1b-5dd1-4df4-916a-bf4e221abfa2
 
 ### Birthday Animation
-![Birthday Animation](https://github.com/user-attachments/assets/b8902942-6005-48c7-bdaa-8d7dd875bee7)
+https://github.com/user-attachments/assets/c902fb60-044e-4c26-a00b-9dbe93943eaf
 
 ### Bottom Nav
-![Bottom Nav](https://github.com/user-attachments/assets/fc38fe6a-a791-4118-973d-4975b5eeb62a)
+![bottomnav](https://github.com/user-attachments/assets/ea18fb70-3eb0-4912-a196-ffe7eb2224f2)
+
 
 ### Buttons Animations
-![Buttons Animations](https://github.com/user-attachments/assets/053f5b8c-5fc9-4099-bf62-ccd696b6089a)
+https://github.com/user-attachments/assets/197e63e6-8655-4a3d-98e3-d5bc2e32f949
 
 ### Web Cam Access
-![Web Cam Access](https://github.com/user-attachments/assets/0ae11182-2a53-46b9-82e3-1a50f29507dc)
+https://github.com/user-attachments/assets/4d5db724-78fd-4e72-b829-5e01d1bc0f72
 
 ### Center A Div
-![Center A Div](https://github.com/user-attachments/assets/825632da-c334-47c3-bf37-cc256dc778c5)
+![image](https://github.com/user-attachments/assets/236a889d-ad1c-4195-971d-e63849757d1c)
 
 ### Digital Clock
-![Digital Clock](https://github.com/user-attachments/assets/dec4a30c-39af-4455-b6f3-a3731e5fa269)
+https://github.com/user-attachments/assets/de5b4b27-9f66-434f-b333-56261b3e4677
+
+### Dynamic Color Change With Html ,Css
+https://github.com/user-attachments/assets/17b53a01-38b5-48bc-8136-73ed5d524878
+
+### Forms Handle By API (Web 3 Forms)
+https://github.com/user-attachments/assets/8abf1cab-dd16-42a7-a362-d2dc3ca00259
+
+### Basic Form Collect Data At Local Storage
+https://github.com/user-attachments/assets/aa0d2e20-32db-40bc-9c18-003ba4be6f04
+
+### Css (:invalid) Pseudo Class
+https://github.com/user-attachments/assets/7905249b-b8a2-4cf1-88d6-d54dd6c4fdca
+
+### Get location
+https://github.com/user-attachments/assets/fb47f9a6-b9de-4538-a7fa-7d2e83feb32c
+
+### Pre-Loder
+https://github.com/user-attachments/assets/1c6ae48d-e79e-4b76-8b92-7b3c3f4660da
+
+### Side Nav
+https://github.com/user-attachments/assets/7852f1c3-42e5-4ee6-905c-c461e8c4d911
+
+### Notification At Browser
+https://github.com/user-attachments/assets/91096545-e516-4a75-aeb9-7b5f8a3f3aac
 
 ## Prerequisites
 
@@ -45,7 +70,13 @@ Before you begin, ensure you have met the following requirements:
 
 To run **Cryptex** locally, run this command on your git bash:
 
+### Windows
+``` bash
+git clone https://github.com/vansh-frontend/Html-Css-Js-mini-proj
+```
+
 ### Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/vansh-frontend/stocks-site
+sudo git clone https://github.com/vansh-frontend/Html-Css-Js-mini-proj
+```

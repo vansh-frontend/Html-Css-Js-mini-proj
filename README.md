@@ -4,6 +4,7 @@
 
 MIni Frontend Projects<br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
+![image](https://github.com/user-attachments/assets/77c7dfb6-dae3-4f0f-831f-4b5d3b12056d)
 <a href="https://stocknest.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>

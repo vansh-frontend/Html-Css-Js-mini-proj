@@ -73,6 +73,7 @@ To run **Cryptex** locally, run this command on your git bash:
 ### Windows
 ``` bash
 git clone https://github.com/vansh-frontend/Html-Css-Js-mini-proj
+```
 
 ### Linux and macOS:
 

@@ -12,7 +12,7 @@
 ## Projects
 
 ### Age Calculator
-![Age Calculator](https://github.com/user-attachments/assets/d80b806d-40af-4368-8c32-73ec2dab81fe)
+https://github.com/user-attachments/assets/702b27fc-8e78-4609-bf60-31cab2d3b573
 
 ### Alert Boxes
 https://github.com/user-attachments/assets/332dad1b-5dd1-4df4-916a-bf4e221abfa2

@@ -18,7 +18,7 @@
 https://github.com/user-attachments/assets/332dad1b-5dd1-4df4-916a-bf4e221abfa2
 
 ### Birthday Animation
-https://github.com/user-attachments/assets/35a08a8f-2179-47dd-a364-0fb4beafa29a
+https://github.com/user-attachments/assets/c902fb60-044e-4c26-a00b-9dbe93943eaf
 
 ### Bottom Nav
 ![bottomnav](https://github.com/user-attachments/assets/ea18fb70-3eb0-4912-a196-ffe7eb2224f2)

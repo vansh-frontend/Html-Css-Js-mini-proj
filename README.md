@@ -7,7 +7,7 @@
   <br />
   <a href="https://stocknest.netlify.app/"><strong>➥ Live Demo</strong></a>
 
-</div>
+
 
 ## Projects
 
@@ -70,7 +70,12 @@ Before you begin, ensure you have met the following requirements:
 
 To run **Cryptex** locally, run this command on your git bash:
 
+### Windows
+``` bash
+git clone https://github.com/vansh-frontend/Html-Css-Js-mini-proj
+
 ### Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/vansh-frontend/stocks-site
+sudo git clone https://github.com/vansh-frontend/Html-Css-Js-mini-proj
+```

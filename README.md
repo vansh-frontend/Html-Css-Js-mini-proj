@@ -96,4 +96,11 @@ Just **clean frontend fundamentals**.
 ```txt
 HTML5
 CSS3
-JavaScript (Vanilla)
+JavaScript
+
+# Clone the repository
+git clone https://github.com/vansh-frontend/vansh-frontend.git
+
+# Open any project
+cd project-folder
+open index.html

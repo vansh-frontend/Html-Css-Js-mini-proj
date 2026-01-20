@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Public API Fetcher</title>
+
+  <!-- Manifest -->
+  <link rel="manifest" href="/
+  manifest.json" /> 
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/img/logo.png" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div>
+      <h1>Public API Fetcher</h1>
+      <p>Fetch and display data from any public API</p>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="https://github.com/vansh-frontend" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/vanshdhalor" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- About -->
+    <section>
+      <h2>About</h2>
+      <p>
+        Paste any open public API URL to fetch and display the response.
+      </p>
+    </section>
+
+    <!-- Fetch -->
+    <section>
+      <h2>Fetch API</h2>
+
+      <form>
+        <input
+          type="url"
+          placeholder="https://jsonplaceholder.typicode.com/posts"
+          required
+        />
+        <button type="submit">
+          <i class="fa-solid fa-cloud-arrow-down"></i>
+          Fetch Data
+        </button>
+      </form>
+
+      <!-- Output -->
+      <div class="cards"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Public API Fetcher · Built by Vansh</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

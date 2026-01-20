@@ -1,0 +1,159 @@
+/* ========== RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== VARIABLES ========== */
+:root {
+  --bg: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e5e7eb;
+  --box: #f9fafb;
+  --accent: #111827;
+}
+
+/* ========== BASE ========== */
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  padding: 40px 24px;
+  line-height: 1.6;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ========== HEADER ========== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+header p {
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+
+nav a {
+  color: var(--muted);
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* ========== SECTIONS ========== */
+section {
+  margin-bottom: 64px;
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+section p {
+  color: var(--muted);
+  max-width: 600px;
+}
+
+/* ========== FORM ========== */
+form {
+  margin-top: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ========== OUTPUT BOXES ========== */
+.cards {
+  margin-top: 32px;
+  display: grid;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Main data box */
+.box {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px 18px;
+  font-size: 14px;
+}
+
+/* Each data row */
+.row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  padding: 6px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+/* Key (left side) */
+.key {
+  font-weight: 600;
+  color: #334155;
+  text-transform: capitalize;
+}
+
+/* Value (right side) */
+.value {
+  color: #0f172a;
+  word-break: break-word;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  border-top: 1px solid var(--border);
+  padding-top: 32px;
+  margin-top: 80px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Public API Fetcher",
+  "short_name": "API Fetcher",
+  "description": "A simple web app to fetch and display public API data in clean card format.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111827",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/api-fetcher/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/api-fetcher/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

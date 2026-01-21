@@ -1,0 +1,26 @@
+/* 
+   RESPONSIVE (BASIC)
+ */
+@media (max-width: 1024px) {
+  .div3 {
+    display: none;
+  }
+
+  .div4 {
+    grid-column: span 4;
+  }
+}
+
+@media (max-width: 768px) {
+  .div2 {
+    display: none;
+  }
+
+  .div4 {
+    grid-column: span 5;
+  }
+
+  .header input {
+    display: none;
+  }
+}

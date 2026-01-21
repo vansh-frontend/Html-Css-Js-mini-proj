@@ -1,0 +1,249 @@
+/*  
+   RESET & BASE
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  color: #050505;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* loader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#preloader:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 5px solid blue;
+  border-top: 5px solid #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+/*  
+   GRID LAYOUT
+ */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto 1fr 1fr 1fr 1fr;
+  gap: 8px;
+  height: 100vh;
+  padding: 8px;
+}
+
+/*  
+   HEADER
+ */
+.div1 {
+  grid-column: span 5;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  height: 60px;
+}
+
+/* Left */
+.header .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.header input {
+  width: 220px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Center Icons */
+.header .center {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header .center span {
+  font-size: 28px;
+  color: #333;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.header .center span:hover {
+  color:royalblue;
+  transform: scale(1.15);
+}
+
+/* Right */
+.header .right span {
+  font-size: 26px;
+  color: #333;
+  cursor: pointer;
+}
+
+/*  
+   LEFT SIDENAV
+ */
+.div2 {
+  grid-row-start: 2;
+  grid-row: span 6;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.sidenav {
+  padding: 16px;
+}
+
+.sidenav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #050505;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.sidenav a:hover {
+  background: #e4e6eb;
+}
+
+/*  
+   MAIN CONTENT
+ */
+.div4 {
+  grid-column-start: 2;
+  grid-column: span 3;
+  grid-row-start: 2;
+  grid-row: span 6;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Example post card */
+.post {
+  background: #f0f2f5;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+/*  
+   RIGHT SUGGESTIONS
+ */
+.div3 {
+  grid-column-start: 5;
+  grid-row-start: 2;
+  grid-row: span 7;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.suggestions {
+  padding: 16px;
+}
+
+.suggestions h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.suggestions ul {
+  list-style: none;
+}
+
+.suggestions li {
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.suggestions li:hover {
+  background: #e4e6eb;
+}
+
+/*  
+   SCROLLBAR (CLEAN)
+ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bcc0c4;
+  border-radius: 10px;
+}
+
+
